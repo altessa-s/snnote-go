@@ -1,0 +1,4 @@
+# Preserve the exact bytes used by scripts/update-clib.sh and TestCLibDigest.
+internal/clib/** -text
+clib_digest.h -text
+testdata/fuzz/** -text
